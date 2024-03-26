@@ -27,9 +27,9 @@ const features = [
   },
 ]
 
-export default function HomePage() {
+export default function Overview() {
   return (
-    <div className="bg-black py-12 h-screen sm:h-screen rounded-t-2xl rounded-b-2xl">
+    <div className="bg-black py-12 h-screen sm:h-screen">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl lg:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-red-500 sm:text-4xl">

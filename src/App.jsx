@@ -1,12 +1,14 @@
 import React from "react"
 import Header from "./Pages/Header"
-import HomePage from "./Pages/HomePage"
+import Overview from "./Pages/Overview"
+import HomeTable from "./Pages/HomeTable"
 import Footer from "./Pages/Footer"
 
 export default function App() {
     return <>
         <Header />
-        <HomePage />
+        <Overview />
+        <HomeTable />
         <Footer />
     </>
 }
